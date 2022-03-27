@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' lang='ar' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+     <b:if cond='data:blog.pageType == &quot;index&quot;'>
+      <meta content='https://2.bp.blogspot.com/-o_64eVERPaM/Xf00qUGNy-I/AAAAAAAANzI/-L6hRUC_VfUh0caNqGedkI22VjDVJR4mQCK4BGAYYCw/s1600/logo.png' property='og:image'/>
+    </b:if> 
+    <meta charset='UTF-8'/>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+    <meta content='ie=edge' http-equiv='X-UA-Compatible'/>
+    <meta expr:content='data:blog.title' property='og:site_name'/>
+    <meta expr:content='&quot;للاندرويد,تطبيق,تحميل,برنامج ,العاب ,تطبيقات,ويندوز,&quot;+data:blog.title' name='keywords'/>
+    <meta content='#00111a' name='theme-color'/>
+    <meta content='website' property='og:type'/>
+    <title>
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        Droid-IQ | الصفحة الرائيسية
+        <b:else/>
+        <b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+          <data:blog.pageName/> | Droid-IQ 
+          <b:else/>
+          Page Not Found | Droid-IQ 
+        </b:if>
+      </b:if>
+    </title>
+      <b:include data='blog' name='all-head-content'/>
+    <noscript>
+      <link href='https://kit-free.fontawesome.com/releases/latest/css/free.min.css' media='all' rel='stylesheet'/>
+      <link href='https://necolas.github.io/normalize.css/latest/normalize.css' media='all' rel='stylesheet'/>
+      </noscript>
+    <link href='' id='fa' media='all' rel='stylesheet'/>
+    <link href='' id='nor' media='all' rel='stylesheet'/>
+   <b:skin><![CDATA[
+     @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap");
+
+      a {
+        text-decoration: unset;
+        color: unset;
+      }
+
+      .section{
+      margin:0;
+      }
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        direction: rtl;
+        font-family: "Tajawal", "Source Sans Pro";
+        font-weight: 500;
+        background: #00111a;
+        color: white;
+        overflow-x: hidden;
+      }
+
+      .dis {
+        left: 0 !important;
+      }
+
+      #ll {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        transition: .7s all;
+        left: 100%;
+        z-index: 2;
+      }
+
+      #layer {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #00000080;
+      }
+
+      #list {
+        padding: 0 10px;
+        box-sizing: border-box;
+        height: 100%;
+        width: 300px;
+        position: absolute;
+        background: #00111a;
+        border-left: 1px solid #032639;
+      }
+
+      #list p span {
+        font-size: x-large;
+        padding-right: 20px;
+        font-weight: 600;
+      }
+      #list #catg {
+        width: fit-content;
+        border-radius: 5px;
+      }
+      #list #catg a {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        background: #032639;
+        border-radius: 5px;
+        margin: 4px;
+        opacity: 0.6;
+      }
+      #list #catg a:hover {
+        opacity: 1;
+      }
+      #list #links a {
+        padding: 3px;
+        border-bottom: 1.5px solid;
+        opacity: 0.6;
+      }
+      #list #links a:hover {
+        opacity: 1;
+        border-bottom-color: #0075ff;
+        transition: 0.5s;
+      }
+      #list .socl a {
+        font-size: 30px;
+        padding: 3px;
+      }
+      header {
+        width: 100%;
+        height: 70px;
+        overflow: hidden;
+      }
+
+      header img {
+        width: 175px;
+        height: 100%;
+        padding: 5px;
+      }
+      header div div{
+        width: 175px;
+        height: 100%;
+        margin: 0 auto !important;
+      }
+
+      nav {
+        width: 100%;
+        height: 30px;
+        border: 0.5px solid #032639;
+        background: #021e2d;
+      }
+
+      div#ser {
+        float: left;
+        margin-left: 10px;
+        width: 200px;
+        height: 100%;
+      }
+
+      #ser form {
+        width: 200px;
+        height: 100%;
+        padding-top: 2px;
+        box-sizing: border-box;
+      }
+
+      #ser form input {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        height: 90%;
+        font-size: 17px;
+        outline: 0;
+        border: 0;
+        padding: 0px 3px;
+        border-radius: 2px;
+        background: #032639;
+        color: white;
+        border: 0.5px solid #0054b4;
+        opacity: 0.5;
+      }
+      #ser form input:focus {
+        opacity: 1;
+      }
+
+      #sll {
+        float: right;
+        color: white;
+        height: 100%;
+        margin-right: 20px;
+        font-size: 20px;
+      }
+
+      #mine {
+        width: 100%;
+        margin: 10px auto;
+        padding: 5px 0px;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+      .dispw{
+        display: none;
+      }
+      #pps {
+        width: 100%;
+        padding: 5px 10px;
+        margin: 0 auto;
+        overflow: hidden;
+        box-sizing: border-box;
+      }
+
+      #pp {
+        width: max-content;
+        height: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 3px;
+        margin: 0 auto;
+        transition: .3s linear;
+        padding-left:30px
+      }
+
+      .ppost {
+        width: 150px;
+        height: 170px;
+        background: #00111a;
+        border-radius: 3px;
+        display: inline-block;
+        transition: 0.7s all;
+        border:2px solid #022030;
+        float: right;
+        margin-right: 10px;
+        overflow:hidden;
+      }
+
+      .ppost:hover {
+        border-color: #0054b4;
+      }
+
+      .ppi {
+        height: 110px;
+        width: 100%;
+        transform: translateY(-1px);
+        overflow:hidden;
+      }
+
+      .ppi img {
+        width: inherit;
+        padding:0;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .ppt {
+        height: 80px;
+        width:100%;
+      }
+
+      .ppt h5 {
+        margin: 0;
+        margin-right: 3px;
+        overflow: hidden;
+        white-space: pre-wrap;
+        font-weight: 100;
+      }
+
+      #ps {
+        position: relative;
+        width: 100%;
+        height: 20px;
+      }
+
+      #psr {
+        width: 100%;
+        height: 5px;
+        background: #0077ff;
+        position: absolute;
+        border-radius: 10px;
+        top: 7.5px;
+        opacity: 0.8;
+      }
+
+      #ps input:hover + #psr {
+        opacity: 1;
+      }
+
+      #psr div {
+        width: 13px;
+        height: 13px;
+        border: 1px solid #0075ff;
+        border-radius: 50%;
+        position: absolute;
+        top: -5px;
+        background: #00111a;
+      }
+
+      #ps input {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        z-index: 1;
+        left:0;
+      }
+
+      #posts {
+        width: 100%;
+        margin: 0 auto;
+        height: fit-content;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      .posts {
+        width: 250px;
+        height: 280px;
+        display: inline-block;
+        border: 5px solid transparent;
+        overflow: hidden;
+      }
+
+      .pi {
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .pi img {
+        border-radius: 10px;
+        width: 250px;
+        transition: .5s ease-in-out;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .pi img:hover{
+        transform:translateY(-50%) scale(1.1);
+      }
+
+      .pb h1 {
+        font-size: 18px;
+        font-weight: 100;
+        margin: 3px 0 0;
+        height: 80px;
+        overflow: hidden;
+      }
+
+      div#erp {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+      }
+      #pbody {
+        max-width: 700px;
+        height: auto;
+        margin: 0 auto;
+      }
+      #pbody h1{
+        text-align: center;
+      }
+      #phi div{
+        display:inline-block;
+        opacity: .6;
+        margin: 0 7px;
+      }
+     #phi div:first-of-type span{
+        border: 0.1px solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 1px;
+    font-size: 13px;
+      }
+      #pbod img {
+        height:100%;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+      #pbod a {
+        color: #00a7ff;
+        font-weight: 600;
+      }
+     div#pbod div {
+        background: transparent !important;
+        color: white !important;
+     }
+
+      #sha {
+        width: 100%;
+        text-align: center;
+      }
+      #sha a {
+        display: inline-block;
+        color: white;
+        padding: 5px;
+        width: 150px;
+        font-size: 20px;
+        border-radius: 4px;
+      }
+
+      #pnum {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        margin:10px 0;
+      }
+
+      .pnum {
+        display: inline-block;
+        width: 20%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+
+      .pnum i {
+        font-size: 30px;
+      }
+    ]]></b:skin>
+  </head>
+  <body onload='ga()'>
+    <div id='ll'>
+      <div id='layer' onclick='hid(&quot;#ll&quot;)'/>
+
+      <div id='list'>
+        <p><span onclick='hid(&quot;#ll&quot;)'>X</span></p>
+
+        <p>التصنيفات</p>
+        <div id='catg'>
+          <b:section id='sica'>
+            <b:widget id='Label1' locked='false' title='التسميات' type='Label' version='1'>
+              <b:widget-settings>
+                <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+                <b:widget-setting name='display'>LIST</b:widget-setting>
+                <b:widget-setting name='selectedLabelsList'/>
+                <b:widget-setting name='showType'>ALL</b:widget-setting>
+                <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+  
+        <b:loop values='data:labels' var='label'>
+          <a expr:href='data:label.url'><data:label.name/></a>
+        </b:loop>
+</b:includable>
+            </b:widget>
+          </b:section>
+        </div>
+
+        <p>روابط مهمة</p>
+        <div id='links'>
+          <a href='https://www.droid-iq.com/p/privacy-policy.html'>سياسة الخصوصية</a>
+          <a href='https://www.droid-iq.com/p/blog-page_13.html'>اتصل بنا </a>
+        </div>
+
+        <p>صفحاتنا الرسمية</p>
+        <div class='socl'>
+          <a href='https://www.facebook.com/Droid-IQ-972890872746803/' target='_blank'>
+            <i class='fab fa-facebook-square'/>
+          </a>
+          <a href='https://www.twitter.com/Droid_IQ' target='_blank'>
+            <i class='fab fa-twitter-square'/>
+          </a>
+          <a href='https://www.youtube.com/c/Droid-iqBlogspot' target='_blank'>
+            <i class='fab fa-youtube-square'/>
+          </a>
+          <a href='https://www.reddit.com/u/droid-iq' target='_blank'>
+            <i class='fab fa-reddit'/>
+          </a>
+        </div>
+        <p> تصميم و تطوير ليث الراوي </p>
+        <div class='socl'>
+          <a href='https://www.facebook.com/alrawe261' target='_blank'>
+            <i class='fab fa-facebook-square'/>
+            </a>
+           <a href='https://www.linkedin.com/in/laith-alrawe-665348117/' target='_blank'>
+            <i class='fab fa-linkedin'/>
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <header>
+     <b:section id='headr'>
+       <b:widget id='Header1' locked='false' title='droid (رأس الصفحة)' type='Header' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='displayUrl'>https://2.bp.blogspot.com/-o_64eVERPaM/Xf00qUGNy-I/AAAAAAAANzI/-L6hRUC_VfUh0caNqGedkI22VjDVJR4mQCK4BGAYYCw/s1600/logo.png</b:widget-setting>
+           <b:widget-setting name='displayHeight'>535</b:widget-setting>
+           <b:widget-setting name='sectionWidth'>872</b:widget-setting>
+           <b:widget-setting name='useImage'>true</b:widget-setting>
+           <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+           <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
+           <b:widget-setting name='displayWidth'>1600</b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+     <a expr:href='data:blog.homepageUrl'>
+<img expr:alt='data:title' expr:data-src='data:sourceUrl'/>
+           </a>
+           <script type='application/ld+json'>
+                {
+                &quot;@context&quot;:&quot;https://schema.org&quot;,
+                &quot;@type&quot;:&quot;blog&quot;,
+                &quot;name&quot;:&quot;
+                <data:blog.title/>
+                &quot;,
+                &quot;url&quot;:&quot;
+                <data:blog.url/>
+                &quot;,
+                &quot;image&quot;:&quot;
+                <data:sourceUrl/>
+                &quot;,
+                &quot;description&quot;:&quot;
+                <data:description/>
+                &quot;,
+                &quot;keywords&quot;:&quot;اندرويد,ويندوز,android,windows&quot;,
+                &quot;inLanguage&quot;:&quot;ar&quot;
+                }
+              </script>
+</b:includable>
+         <b:includable id='description'/>
+         <b:includable id='title'/>
+       </b:widget>
+     </b:section>
+    </header>
+    <nav>
+      <div id='ser'>
+        <form expr:action='data:blog.homepageUrl + &quot;search&quot;' method='get'>
+          <input autocomplete='off' id='is' name='q' placeholder='بحث' type='search'/>
+        </form>
+      </div>
+
+      <div id='sll'>
+        <i class='fas fa-bars' onclick='hid(&quot;#ll&quot;)' style='transform: translateY(4px);cursor: pointer;'/>
+      </div>
+    </nav>
+    
+    
+     <div id='pps'>
+        <span>المشاركات الرائجة...</span>
+        <div id='pp'>
+          <b:section id='popl'>
+            <b:widget id='PopularPosts1' locked='false' title='المشاركات الشائعة' type='PopularPosts' version='1'>
+              <b:widget-settings>
+                <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
+                <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+                <b:widget-setting name='showSnippets'>false</b:widget-setting>
+                <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+                  <b:loop index='i' values='data:posts' var='post'>
+  <div class='ppost'>
+            <a expr:href='data:post.href'>
+              <div class='ppi'><img expr:alt='data:post.title' expr:data-src='data:post.featuredImage'/></div>
+              <div class='ppt'>
+                <h5><data:post.title/></h5>
+              </div>
+            </a>
+          </div>
+           
+      </b:loop>
+                <div style='clear:both'/>
+</b:includable>
+            </b:widget>
+          </b:section>
+         </div> 
+       <b:if cond='!data:blog.isMobileRequest'>
+          <div id='ps'>
+          <input id='rch' max='50' min='0' oninput='ch()' type='range' value='0'/>
+          <div id='psr'>
+            <div/>
+          </div>
+        </div>
+         <b:else/>
+         <style>
+           #pps{
+           overflow-x:scroll;
+           }
+         </style>
+       </b:if>
+         </div>
+    
+    
+    <div id='mine'>
+      
+       <div id='posts'>
+         
+         <b:section class='main' id='bpos' showaddelement='no'>
+           <b:widget id='Blog1' locked='true' title='رسائل المدونة الإلكترونية' type='Blog' version='1'>
+             <b:widget-settings>
+               <b:widget-setting name='commentLabel'>comments</b:widget-setting>
+               <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+               <b:widget-setting name='authorLabel'>Posted by</b:widget-setting>
+               <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+               <b:widget-setting name='timestampLabel'>at</b:widget-setting>
+               <b:widget-setting name='reactionsLabel'/>
+               <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+               <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+               <b:widget-setting name='showLocation'>false</b:widget-setting>
+               <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+               <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+               <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+               <b:widget-setting name='backlinksLabel'/>
+               <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+               <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+               <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+               <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+               <b:widget-setting name='showAuthor'>false</b:widget-setting>
+               <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+               <b:widget-setting name='showLabels'>true</b:widget-setting>
+               <b:widget-setting name='postLabelsLabel'>Labels:</b:widget-setting>
+               <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+               <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+               <b:widget-setting name='showReactions'>false</b:widget-setting>
+             </b:widget-settings>
+             <b:includable id='main' var='top'>
+ <b:if cond='data:numPosts &gt; 0'>
+               <b:loop index='i' values='data:posts' var='post'>
+                <b:include data='post' name='post'/>
+              </b:loop>
+                   <b:else/>
+                  <div id='erp'>
+                   <h2 style='text-align: center;'>عذرا لا توجد اي تدوينات</h2>
+                   <i class='fas fa-ghost' style='font-size:40px; position: relative;top:10px;'/>
+                 </div>
+                  </b:if>
+<b:include name='nextprev'/>
+</b:includable>
+             <b:includable id='backlinkDeleteIcon' var='backlink'/>
+             <b:includable id='backlinks' var='post'/>
+             <b:includable id='comment-form' var='post'/>
+             <b:includable id='commentDeleteIcon' var='comment'/>
+             <b:includable id='comment_count_picker' var='post'/>
+             <b:includable id='comment_picker' var='post'/>
+             <b:includable id='comments' var='post'/>
+             <b:includable id='feedLinks'/>
+             <b:includable id='feedLinksBody' var='links'/>
+             <b:includable id='iframe_comments' var='post'/>
+             <b:includable id='mobile-index-post' var='post'/>
+             <b:includable id='mobile-main' var='top'/>
+             <b:includable id='mobile-nextprev'/>
+             <b:includable id='mobile-post' var='post'/>
+             <b:includable id='nextprev'>
+              <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+  <div id='pnum'>
+     <b:if cond='data:newerPageUrl'>
+            <div class='pnum' style='text-align: right;'>
+              <a expr:href='data:newerPageUrl'><i class='fas fa-chevron-right'/></a>
+            </div>
+       <b:else/>
+        <div class='pnum' style='text-align: right;opacity:.5'>
+             <i class='fas fa-chevron-right'/>
+            </div>
+    </b:if>
+            <b:if cond='data:olderPageUrl'>
+            <div class='pnum' style='text-align: left;'>
+              <a expr:href='data:olderPageUrl'><i class='fas fa-chevron-left'/></a>
+            </div>
+       <b:else/>
+        <div class='pnum' style='text-align: left;opacity:.5'>
+             <i class='fas fa-chevron-left'/>
+            </div>
+    </b:if>
+          </div>
+               </b:if>
+</b:includable>
+             <b:includable id='post' var='post'>
+               <script type='application/ld+json'>
+                {
+                &quot;@context&quot;:&quot;https://schema.org&quot;,
+                &quot;@type&quot;:&quot;BlogPosting&quot;,
+                &quot;url&quot;:&quot;
+                <data:post.url/>
+                &quot;,
+                &quot;name&quot;:&quot;
+                <data:post.title/>
+                &quot;,
+                &quot;image&quot;:&quot;
+                <data:post.firstImageUrl/>
+                &quot;,
+                &quot;description&quot;:&quot;<data:post.snippet/>&quot;,
+                &quot;inLanguage&quot;:&quot;ar&quot;,
+                &quot;dateCreated&quot;:&quot;
+                <data:post.dateHeader/>
+                &quot;,
+                &quot;author&quot;:&quot;droid-iq&quot;,
+                &quot;datePublished&quot;:&quot;<data:post.dateHeader/>&quot;,
+                &quot;headline&quot;:&quot;
+                <data:post.title/>
+                &quot;,
+                &quot;mainEntityOfPage&quot;:&quot;<b:loop values='data:post.labels' var='label'><data:label.name/></b:loop>,&quot;,
+                &quot;datemodified&quot;:&quot;<data:post.dateHeader/>&quot;,
+                &quot;publisher&quot;:{
+                &quot;@context&quot;:&quot;https://schema.org&quot;,
+                &quot;@type&quot;:&quot;organization&quot;,
+                &quot;name&quot;:&quot;droid-iq&quot;,
+                &quot;logo&quot;:&quot;https://3.bp.blogspot.com/-BN6QidnCJhI/XZSTRZb3t7I/AAAAAAAANlg/xFQZpBu3A5AziF5XXmh0Bqx2p3M4wMJHwCK4BGAYYCw/s1600/20190207_210430.png&quot;,
+                &quot;url&quot;:&quot;
+                <data:blog.homepageUrl/>
+                &quot;
+                }
+                }
+              </script>
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+            <div class='posts'>
+              <div class='pi'>
+                <b:if cond='data:i == &quot;0&quot;'> 
+                <img expr:alt='data:post.title' expr:src='data:post.firstImageUrl'/>
+                  <b:else/>
+                   <img expr:alt='data:post.title' expr:data-src='data:post.firstImageUrl'/>
+                  </b:if>
+                  </div>
+          <div class='pb'>
+            <a expr:href='data:post.url'>
+            <h1><data:post.title/></h1>
+            </a>
+          </div>
+          <p><data:post.snippet/></p>
+        </div>
+               </b:if>    
+               
+               <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+                 <div id='pbody'>
+                    <h1><data:post.title/></h1>
+                   <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                      <div id='phi' style='text-align:center'>
+                        <b:if cond='data:post.labels'>
+                         <div>
+                          <i class='fas fa-tag' style='transform: translateY(3px);'/>
+                            <b:loop values='data:post.labels' var='label'>
+                           <span>
+                          <a expr:href='data:label.url'>
+                            <data:label.name/>
+                          </a>
+                           </span>
+                                 </b:loop>
+                          </div>
+                        </b:if>
+                        
+                         <b:if cond='data:post.dateHeader'>
+                          <div>
+                        <span>
+                           <i class='far fa-clock' style='transform: translateY(1px); font-size: 15px; opacity: 1;'/>
+                          <data:post.dateHeader/>
+                        </span>
+                     
+                          </div>
+                        </b:if>
+                      </div>
+                      
+                     </b:if>
+                   <b:if cond='data:blog.pageType == &quot;item&quot;'>
+      <div style='max-width:500px; height:auto; margin:5px auto;'>
+<ins class='adsbygoogle' data-ad-client='ca-pub-2266837740800840' data-ad-format='link' data-ad-slot='6900097616' data-full-width-responsive='true' style='display:block'/>
+    </div>
+      </b:if>
+                       <div id='pbod'>
+                    <data:post.body/>
+                      </div>
+                     <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+                  <div id='sha'>
+              <a expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot;+data:post.url' style='background: #2d5f9a;' target='_blank'>
+                شارك<i class='fab fa-facebook-f'/>
+              </a>
+              <a expr:href='&quot;https://twitter.com/intent/tweet?url=&quot;+data:post.url' style='background: #00c3f3;' target='_blank'>
+                غرد<i class='fab fa-twitter'/>
+              </a>
+            </div>
+                   </b:if>
+                   <b:if cond='data:post.labels'>
+                     <div id='relet'>
+              <p style='opacity: 1;'>شاهد ايضا</p>
+ <div class='posts'>
+          <ins class='adsbygoogle' data-ad-client='ca-pub-2266837740800840' data-ad-format='fluid' data-ad-layout-key='-6t+ed+2i-1n-4w' data-ad-slot='7905204399' style='display:block'/>
+     </div>
+              </div>
+            <script>//<![CDATA[
+              function relet(jso) {
+                var pe=document.getElementById("relet");
+                for(i=0;i<3;i++){
+                var im=('media$thumbnail' in jso.feed.entry[i]) ? jso.feed.entry[i].media$thumbnail.url.replace("s72-c","s220-c") : "https://safetyaustraliagroup.com.au/wp-content/uploads/2019/05/image-not-found.png";
+                var ti=jso.feed.entry[i].link[2].title;
+                var hr=jso.feed.entry[i].link[2].href;
+                var el="<div class='posts'><div class='pi'><img data-src='"+im+"' alt='"+ti+"' /></div> <div class='pb'><a href='"+hr+"'<h1>"+ti+"</h1></div>"
+               pe.innerHTML+=el
+                }
+            
+              } //]]>
+            </script>
+                   <b:loop index='i' values='data:post.labels' var='label'>
+                     <b:if cond='data:i == 0'>
+<script expr:src='data:blog.homepageUrl + &quot;feeds/posts/default/-/&quot; + data:label.name + &quot;?alt=json&amp;callback=relet&amp;max-results=3&quot;'/> 
+                     </b:if>
+                     </b:loop>
+                   </b:if>
+                 </div>
+               </b:if>
+</b:includable>
+             <b:includable id='postQuickEdit' var='post'/>
+             <b:includable id='shareButtons' var='post'/>
+             <b:includable id='status-message'/>
+             <b:includable id='threaded-comment-form' var='post'/>
+             <b:includable id='threaded_comment_js' var='post'/>
+             <b:includable id='threaded_comments' var='post'/>
+           </b:widget>
+         </b:section>
+      </div>
+    </div>
+      <script data-ad-client='ca-pub-2266837740800840'/>
+      <script id='ad2'/>
+     <script defer='defer'>//<![CDATA[
+      function $(el) {
+        return document.querySelector(el);
+      }
+       function ga(){
+        $("script[data-ad-client]").src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+         (adsbygoogle = window.adsbygoogle || []).push({});
+         (adsbygoogle = window.adsbygoogle || []).push({});
+         (adsbygoogle = window.adsbygoogle || []).push({});
+         (adsbygoogle = window.adsbygoogle || []).push({});
+      }
+      function hid(el) {
+        $(el).classList.toggle("dis");
+      }
+
+
+
+
+  var ob=new IntersectionObserver(function (items,self) {
+        for (let i = 0; i < items.length; i++) {
+           if (items[i].isIntersecting) {
+           items[i].target.src=items[i].target.getAttribute("data-src").replace(/\/s\d+\//g,"/s200/");
+           self.unobserve(items[i].target); 
+           }
+        }
+    });
+var im=document.querySelectorAll("img[data-src]");
+    for (let i = 0; i < im.length; i++) {
+    ob.observe(im[i]);
+    }
+$("#fa").href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css";
+$("#nor").href="https://necolas.github.io/normalize.css/latest/normalize.css";
+                       //]]>
+    </script>
+    <b:if cond='!data:blog.isMobileRequest'>
+    <script>
+      //<![CDATA[
+function pw() {
+        var pw =(Number($("#pp").clientWidth) - Number($("#pps").clientWidth));
+          if (pw <= 0) {
+          $("#ps").classList.add("dispw")
+        }
+        if (pw > 0 && $("#ps").classList.contains("dispw")) {
+         $("#ps").classList.remove("dispw");
+        }
+        return pw;
+      }
+      
+     
+ function ch() {
+         // input value
+         var sv=$("#rch").value;
+         // cards contenar width minus perent width div input max range value multi input value
+         var pww=( pw() /50)*sv;
+         $("#pp").style="transform: translateX(" + pww + "px)";
+         
+         // the width of the cerlc
+         var cer=$("#psr div").offsetWidth;
+         // cerlc perent width minus the cerlc width div input max range multi input value
+         var iw=(($("#psr").clientWidth-cer)/50)*sv;
+         $("#psr div").style="right:"+iw+"px";
+     }
+    window.onload=pw();
+//]]>
+    </script>
+    </b:if>
+     <script src='https://www.googletagmanager.com/gtag/js?id=UA-90308373-4'/>
+    <script async='async' data-ad-client='ca-pub-3608321143116556' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+
+  gtag(&#39;config&#39;, &#39;UA-90308373-4&#39;);
+</script>
+  </body>
+</html>
