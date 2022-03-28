@@ -417,7 +417,7 @@
       }
     ]]></b:skin>
   </head>
-  <body onload='ga()'>
+  <body>
     <div id='ll'>
       <div id='layer' onclick='hid(&quot;#ll&quot;)'/>
 
@@ -748,11 +748,6 @@
                       </div>
                       
                      </b:if>
-                   <b:if cond='data:blog.pageType == &quot;item&quot;'>
-      <div style='max-width:500px; height:auto; margin:5px auto;'>
-<ins class='adsbygoogle' data-ad-client='ca-pub-2266837740800840' data-ad-format='link' data-ad-slot='6900097616' data-full-width-responsive='true' style='display:block'/>
-    </div>
-      </b:if>
                        <div id='pbod'>
                     <data:post.body/>
                       </div>
@@ -769,9 +764,6 @@
                    <b:if cond='data:post.labels'>
                      <div id='relet'>
               <p style='opacity: 1;'>شاهد ايضا</p>
- <div class='posts'>
-          <ins class='adsbygoogle' data-ad-client='ca-pub-2266837740800840' data-ad-format='fluid' data-ad-layout-key='-6t+ed+2i-1n-4w' data-ad-slot='7905204399' style='display:block'/>
-     </div>
               </div>
             <script>//<![CDATA[
               function relet(jso) {
@@ -811,13 +803,7 @@
       function $(el) {
         return document.querySelector(el);
       }
-       function ga(){
-        $("script[data-ad-client]").src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
-         (adsbygoogle = window.adsbygoogle || []).push({});
-         (adsbygoogle = window.adsbygoogle || []).push({});
-         (adsbygoogle = window.adsbygoogle || []).push({});
-         (adsbygoogle = window.adsbygoogle || []).push({});
-      }
+       
       function hid(el) {
         $(el).classList.toggle("dis");
       }
@@ -874,7 +860,6 @@ function pw() {
     </script>
     </b:if>
      <script src='https://www.googletagmanager.com/gtag/js?id=UA-90308373-4'/>
-    <script async='async' data-ad-client='ca-pub-3608321143116556' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
